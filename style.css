@@ -1,0 +1,37 @@
+.text {
+  font-family: arial;
+}
+
+body {
+  font-family: arial;
+}
+
+.center {
+  display: block;
+  margin: auto;
+}
+
+.button {
+  background-color: red;
+  color: white;
+  padding: 10px;
+  text-decoration: none;
+}
+
+.button:hover {
+  background-color: black;
+  color: white;
+  padding: 10px;
+  text-decoration: none;
+}
+
+.banner {
+  filter: sepia(50);
+  border-radius: 10px;
+  border: 5px solid black;
+}
+
+.banner:hover {
+  filter: none;
+  transition-duration: 1s;
+}
